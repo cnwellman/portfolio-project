@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #1a8b8f;
+  --secondary-color: #b2e0e0;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -77,10 +77,20 @@ p {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
+  color: var(--branding-color);
 }
 
 .content p {
   font-size: 14px;
+}
+
+.content p a {
+  text-decoration: none;
+  color: black;
+}
+
+.content p a:visited {
+  color: #378286;
 }
 
 .content {
@@ -189,7 +199,6 @@ footer .social-links a:hover {
   }
 
   .content {
-    text-align: center;
     padding: 0;
   }
 
