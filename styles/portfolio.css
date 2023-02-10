@@ -1,8 +1,11 @@
 :root {
-  --branding-color: #1a8b8f;
-  --secondary-color: #b2e0e0;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --dark-cool: #193360;
+  --light-cool: #b5d3e2;
+  --dark-warm: #5e1543;
+  --light-warm: #cf7b85;
+  --glow-warm: #f1a038;
+  --heading-font-family: "Italiana", serif;
+  --default-font-family: "Gotu", sans-serif;
 }
 
 body {
@@ -40,7 +43,7 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--light-cool);
   text-align: center;
   padding: 80px 20px;
 }
@@ -77,7 +80,7 @@ p {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
-  color: var(--branding-color);
+  color: var(--dark-cool);
 }
 
 .content p {
@@ -90,7 +93,7 @@ p {
 }
 
 .content p a:visited {
-  color: #378286;
+  color: #0c4a4d;
 }
 
 .content {
@@ -98,7 +101,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--dark-cool);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -107,8 +110,8 @@ p {
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
+  color: var(--dark-cool);
+  border: 1px solid var(--dark-cool);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -147,7 +150,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: var(--dark-cool);
 }
 
 footer {
@@ -155,7 +158,7 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background: var(--light-cool);
   padding: 30px 120px;
   border-radius: 8px;
 }
@@ -171,13 +174,13 @@ footer .email-link {
 }
 
 footer .email-link:hover {
-  color: var(--branding-color);
+  color: var(--dark-cool);
 }
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
+  color: var(--dark-cool);
+  background: var(--light-cool);
   padding: 10px 16px;
   border-radius: 50%;
   font-size: 18px;
@@ -186,7 +189,7 @@ footer .social-links a {
 
 footer .social-links a:hover {
   color: white;
-  background: var(--branding-color);
+  background: var(--dark-cool);
 }
 
 @media (max-width: 900px) {
